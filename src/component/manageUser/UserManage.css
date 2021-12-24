@@ -1,0 +1,67 @@
+.users-container{
+    width: 1381px;
+    height: 682px;
+
+}
+.users-container .user-manager-title{
+    width: 100%;
+    height: 10%;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+.user-manager-body{
+    width: 100%;
+    height: 80%;
+}
+
+.user-manager-body .user-table{
+    margin-top: 15px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+  }
+  button.btn-edit{
+      width: 50px;
+      border: none;
+      outline: none;
+      background: transparent;
+      color: rgb(65, 194, 172);
+  }
+  i.fa-pencil-alt:before{
+    font-size: 18px;
+  }
+  button.btn-delete{
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(194, 65, 87);
+  }
+  i.fa-trash-alt:before {
+    content: "\f2ed";
+    font-size: 18px;
+}
